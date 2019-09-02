@@ -25,7 +25,7 @@ SECRET_KEY = 'b_u(biar8&yx1ngd75pe4rwf5#p-byc$o4953sy1ecrp+amc16'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+
 
 
 # Application definition
@@ -123,3 +123,5 @@ USE_TZ = True
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
 STATIC_URL = '/static/'
+
+ALLOWED_HOSTS = ['mealplanner-cy.azurewebsites.net']
